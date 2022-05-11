@@ -5,9 +5,15 @@
   <body>
     <a-scene>
       <assets>
-        <a-asset-item id="blast" ></a-asset-item>
+        <a-asset-item id="blast" src="https://raw.githubusercontent.com/sergio637/A-Frame-Template/main/assets/blast/scene.gltf"></a-asset-item>
+        <a-asset-item id="timechamber" src="./assets/timechamber/HYPERBOLICTC.gltf"></a-asset-item>
       </assets>
       <a-sky color="#ECECEC"></a-sky>
+      <a-entity camera="" position="0.87511 0.98822 3.98419" wasd-controls="" rotation="-30.825129378038305 -47.555496995858334 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera=""></a-entity>
+      <a-plane id="floor" rotation="-90 0 0"></a-plane>
+      <a-gltf-model src="#blast" position="0 0.869 12.335" scale="0.279 0.279 0.279"></a-gltf-model>
+      <a-gltf-model src="#timechamber" position="0 -0.351 0"></a-gltf-model>
     </a-scene>
   </body>
 </html>
+h
